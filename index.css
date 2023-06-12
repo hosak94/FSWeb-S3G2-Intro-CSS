@@ -1,0 +1,145 @@
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 40px;
+}
+
+p,
+a {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+}
+
+.container {
+  margin: 60px;
+}
+.turuncu {
+  background: #ff764e;
+}
+
+.mavi {
+  background: #5ed3eb;
+}
+
+.sari {
+  background: #ffcd69;
+}
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  height: 50px;
+  width: 140px;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+a:hover {
+  background-color: black;
+}
+
+.content {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+}
+
+.first-img img {
+  margin-left: 10px;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.first-text {
+  width: 80%;
+  line-height: 2;
+}
+
+.main-text {
+  background-color: #ddb9a3;
+  color: white;
+  padding: 2px;
+  margin-top: 15px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.first-paragraf {
+  padding-bottom: 2em;
+}
+
+.introduction {
+  margin: 50px;
+  text-align: center;
+  padding: 20px 760px 20px 760px;
+  line-height: 1.4;
+}
+
+.introduction p {
+  padding-bottom: 3em;
+}
+
+.introduction img {
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+footer nav {
+  background-color: #f9e7dc;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+footer nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 25px;
+  border-radius: 10px;
+  margin: 20px 50px;
+  margin-right: 250px;
+  color: white;
+  margin-bottom: 40px;
+  height: 40px;
+  width: 120px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.bg-yavruagzi {
+  background: #ff764e;
+}
+.bg-mavi {
+  background: #5ed3eb;
+}
+.bg-sari {
+  background: #ffcd69;
+}
+
+.ImgCont {
+  background-image: url(assets/footer_img.jpg);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
